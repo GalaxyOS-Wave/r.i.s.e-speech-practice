@@ -70,7 +70,7 @@ function AppContent() {
               <span className="font-display font-semibold text-base tracking-widest text-[#5e3d94] block leading-none">
                 R.I.S.E
               </span>
-              <span className="font-cursive text-xs text-gold-400 italic font-light tracking-wide block mt-0.5">
+              <span className="font-cursive text-xs text-purple-400 italic font-light tracking-wide block mt-0.5">
                 Golden Alignment
               </span>
             </div>
@@ -87,8 +87,8 @@ function AppContent() {
                   onClick={() => setView(item.id)}
                   className={`w-full flex items-center space-x-3 rounded-lg px-3 py-2.5 text-xs font-medium tracking-wide transition-all ${
                     isActive
-                      ? 'bg-gradient-to-r from-gold-600 via-gold-500 to-gold-700 text-black font-bold shadow-[0_2px_15px_rgba(212,175,55,0.25)]'
-                      : 'text-gray-400 hover:bg-gold-500/5 hover:text-gold-200'
+                      ? 'bg-gradient-to-r from-purple-600 via-purple-500 to-purple-700 text-black font-bold shadow-[0_2px_15px_rgba(212,175,55,0.25)]'
+                      : 'text-gray-400 hover:bg-gold-500/5 hover:text-purple-200'
                   }`}
                 >
                   <Icon className="h-4 w-4 shrink-0" />
