@@ -1,0 +1,6 @@
+{
+  "name": "R.I.S.E Speech Practice",
+  "description": "A premium speech practice and self-evaluation web app with gamified streaks, an interactive teleprompter, and intelligent system-score alignment checks.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

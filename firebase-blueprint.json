@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile and gamified stats tracker",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "xp": { "type": "integer" },
+        "level": { "type": "integer" },
+        "streak": { "type": "integer" },
+        "lastPracticeDate": { "type": "string" },
+        "totalSpeechesCount": { "type": "integer" },
+        "totalPracticeDuration": { "type": "integer" },
+        "matchRate": { "type": "integer" }
+      },
+      "required": ["id", "email", "name", "xp", "level", "streak", "totalSpeechesCount", "totalPracticeDuration", "matchRate"]
+    },
+    "Speech": {
+      "title": "Speech",
+      "description": "Speech drafts created and refined by user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "content": { "type": "string" },
+        "wordCount": { "type": "integer" },
+        "estimatedDuration": { "type": "integer" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "title", "category", "content", "wordCount", "estimatedDuration", "createdAt", "updatedAt"]
+    },
+    "PracticeSession": {
+      "title": "PracticeSession",
+      "description": "Historic user vocal delivery and alignment calibration sessions",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "speechId": { "type": "string" },
+        "speechTitle": { "type": "string" },
+        "speechCategory": { "type": "string" },
+        "durationSeconds": { "type": "integer" },
+        "completedAt": { "type": "string" },
+        "isMatched": { "type": "boolean" },
+        "xpEarned": { "type": "integer" }
+      },
+      "required": ["id", "userId", "speechId", "speechTitle", "speechCategory", "durationSeconds", "completedAt", "isMatched", "xpEarned"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Individual user profiles and gamification alignment stats"
+    },
+    "users/{userId}/speeches/{speechId}": {
+      "schema": "Speech",
+      "description": "User speech drafting catalog"
+    },
+    "users/{userId}/sessions/{sessionId}": {
+      "schema": "PracticeSession",
+      "description": "User teleprompter practice execution runs and self-awareness scores"
+    }
+  }
+}
