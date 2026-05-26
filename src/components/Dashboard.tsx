@@ -95,7 +95,7 @@ export const Dashboard: React.FC = () => {
             </div>
           </div>
           <div className="mt-4 flex items-baseline space-x-2">
-            <span className="font-display text-3xl font-bold text-white">{user.streak} Days</span>
+            <span className="font-display text-3xl font-bold text-white">{user.streak} Total Practices</span>
             <span className="font-mono text-[9px] font-bold text-gold-400 bg-gold-500/15 px-2 py-0.5 rounded-full border border-gold-500/20 animate-pulse">Imperial Medal</span>
           </div>
           <p className="mt-2 text-[10.5px] text-gray-400">
