@@ -16,7 +16,7 @@ function AppContent() {
   // loading state
   if (loading) {
     return (
-      <main className="min-h-screen bg-[#050505] flex items-center justify-center">
+      <main className="min-h-screen bg-[#130726] flex items-center justify-center">
         <div className="text-center space-y-3">
           <Loader2 className="h-8 w-8 text-purple-500 animate-spin mx-auto" />
           <p className="font-mono text-xs text-purple-400">Contacting Golden Orator Node...</p>
