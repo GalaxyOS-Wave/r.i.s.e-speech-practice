@@ -51,14 +51,14 @@ function AppContent() {
     <div className="min-h-screen bg-[#050505] text-[#f8fafc] flex flex-col md:flex-row selection:bg-gold-500/30 selection:text-white">
       
       {/* PERSISTENT SIDEBAR - SLEEK GOLD & OBSIDIAN THEME (DESKTOP) */}
-      <aside className="hidden md:flex w-64 flex-shrink-0 bg-[#0c0c0e] border-r border-gold-500/10 flex-col justify-between p-6">
+      <aside className="hidden md:flex w-64 flex-shrink-0 bg-[#0c0c0e] border-r border-purple-500/10 flex-col justify-between p-6">
         <div>
           {/* Logo Brand with Majestic Gold Picture Emblem */}
           <div 
             onClick={() => setView('dashboard')} 
             className="flex cursor-pointer items-center space-x-3 mb-8 hover:opacity-90 transition-opacity"
           >
-            <div className="relative h-11 w-11 flex items-center justify-center rounded-xl bg-black border border-gold-500/30 overflow-hidden shadow-[0_0_15px_rgba(212,175,55,0.15)]">
+            <div className="relative h-11 w-11 flex items-center justify-center rounded-xl bg-black border border-purple-500/30 overflow-hidden shadow-[0_0_15px_rgba(212,175,55,0.15)]">
               <img 
                 src={goldenCrest} 
                 alt="Golden Crest" 
