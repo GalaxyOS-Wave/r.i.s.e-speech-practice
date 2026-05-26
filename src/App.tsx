@@ -48,7 +48,7 @@ function AppContent() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#050505] text-[#f8fafc] flex flex-col md:flex-row selection:bg-gold-500/30 selection:text-white">
+    <div className="min-h-screen bg-[#130726] text-[#f8fafc] flex flex-col md:flex-row selection:bg-gold-500/30 selection:text-white">
       
       {/* PERSISTENT SIDEBAR - SLEEK GOLD & OBSIDIAN THEME (DESKTOP) */}
       <aside className="hidden md:flex w-64 flex-shrink-0 bg-[#0c0c0e] border-r border-purple-500/10 flex-col justify-between p-6">
