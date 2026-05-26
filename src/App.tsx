@@ -30,7 +30,7 @@ function AppContent() {
     return (
       <main className="min-h-screen bg-[#601da8] text-slate-100 flex flex-col justify-between selection:bg-purple-500/30 selection:text-white">
         <Auth />
-        <footer className="py-6 border-t border-gold-500/10 bg-black/80 text-center font-mono text-[9px] text-purple-600">
+        <footer className="py-6 border-t border-purple-500/10 bg-black/80 text-center font-mono text-[9px] text-white-600">
           R.I.S.E v1-(beta)  — Designed by Cadenx Company.
         </footer>
       </main>
