@@ -67,7 +67,7 @@ function AppContent() {
               />
             </div>
             <div>
-              <span className="font-display font-semibold text-base tracking-widest text-[#e6c387] block leading-none">
+              <span className="font-display font-semibold text-base tracking-widest text-[#5e3d94] block leading-none">
                 R.I.S.E
               </span>
               <span className="font-cursive text-xs text-gold-400 italic font-light tracking-wide block mt-0.5">
