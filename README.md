@@ -1,20 +1,10 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Hello Cadenians ! 
+INTRODUCING CADENX R.I.S.E which stands for -> Ruling . In . Speaking . Everyday! 
 
-# Run and deploy your AI Studio app
+This Project is dedicated to help you evaluate your speech and get marks from our CURATED SYSTEM.
 
-This contains everything you need to run your app locally.
+This system first gives you chance to give marks to yourself and then system will evaluate your speech and give marks to you. IF YOUR MARKS ARE MATCHED WITH SYSTEM OR IS CLOSE TO THE SYSTEM'S then you will gain XPs
 
-View your app in AI Studio: https://ai.studio/apps/8ab1f213-953b-4aee-832c-0d163ca98853
+COMING SOOOOON...... FEATURES ->
+RISE resources (VOICE MODULATION AND EFFECTIVE SPEAKING LESSONS)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
