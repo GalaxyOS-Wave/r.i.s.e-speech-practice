@@ -28,7 +28,7 @@ function AppContent() {
   // If user is not authenticated, lock into Auth flow
   if (!user) {
     return (
-      <main className="min-h-screen bg-[#050505] text-slate-100 flex flex-col justify-between selection:bg-purple-500/30 selection:text-white">
+      <main className="min-h-screen bg-[#601da8] text-slate-100 flex flex-col justify-between selection:bg-purple-500/30 selection:text-white">
         <Auth />
         <footer className="py-6 border-t border-gold-500/10 bg-black/80 text-center font-mono text-[9px] text-purple-600">
           R.I.S.E v1-(beta)  — Designed by Cadenx Company.
